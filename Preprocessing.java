@@ -73,7 +73,7 @@ public class Preprocessing {
         {
             frequencyList.add((float)headerFrequency[i]/logs.size());
         }
-      // frequencyList.add(69.6969696f);
+      
        return frequencyList;
     }
 
