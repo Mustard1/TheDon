@@ -18,8 +18,8 @@ Command to launch and ADB shell:
 Tool and command used to collect kernel calls:   
 ```` strace -p [PID] ````
 
-Variant of above - Tool and command used to send logs to file
-```` strace -p [PID] &> \path\to\filename````
+Variant of above - Tool and command used to send logs to file:
+```` strace -p [PID] &> \path\to\filename ````
 
 Tool and command used to fuzz input to the application:
 ```` monkey -p [name of application from process list] -v --ignore crashes 500 ````
